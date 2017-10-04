@@ -5,9 +5,11 @@
     "author": "carlos.palacios",
     "contributors": [],
     "dependencies": {},
+    "main": "main.js",
     "scripts":
             {
                 "prestart": "sudo npm install -g",
                 "start": "node main.js"
             }
+            
 }
