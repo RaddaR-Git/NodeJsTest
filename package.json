@@ -4,5 +4,10 @@
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "carlos.palacios",
     "contributors": [],
-    "dependencies": {}
+    "dependencies": {},
+    "scripts":
+            {
+                "prestart": "sudo npm install -g",
+                "start": "node main.js"
+            }
 }
